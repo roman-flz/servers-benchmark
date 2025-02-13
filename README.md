@@ -3,7 +3,7 @@
 ```
 CREATE DATABASE dailytasks
 
-#Login into the database dailytasks and create tasks table
+#Log in the database dailytasks and create tasks table
 docker exect -it <container_name> -U -d dailytasks
 
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
